@@ -15,7 +15,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ![image](https://user-images.githubusercontent.com/62937441/222765828-a0b6d1db-df47-4118-ad3c-0e991f12b9fc.png)
 
 далее в окне ввести комманды: 
-  git clone https://github.com/Papa-Pedro-13/sapper.git
-  cd sapper
-  npm install react-scripts
-  npm start
+git clone https://github.com/Papa-Pedro-13/sapper.git
+cd sapper
+npm install react-scripts
+npm start
