@@ -33,9 +33,7 @@ function App() {
       }
     }
   }
-  window.onload = function () {
-    drawMap()
-  }
+  setTimeout(() => drawMap(), 1);
   React.useEffect(() => {
     const timerID = setInterval(() => {
       if (smile != 'looser' && smile != 'winner')
@@ -44,7 +42,7 @@ function App() {
     return () => clearInterval(timerID);
   });
   function onContextMenu(index) {
-    if ((items[index] == 'flag' || items[index] == 'question' || items[index] == 'default-brick') &&!endGame) {
+    if ((items[index] == 'flag' || items[index] == 'question' || items[index] == 'default-brick') && !endGame) {
       const newMap = items.map((c, i) => {
         if (i === index) {
           if (c == "flag") {
